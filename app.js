@@ -29,5 +29,5 @@ router.get('/hello', function(req,res){
 // })  
 
 app.listen(3000, function () {
-    console.log('This is Error Handling Page. Our REST API Running on port 3000!')
+    console.log('Our REST API Running on port 3000!')
 })
