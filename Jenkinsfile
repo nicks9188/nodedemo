@@ -21,6 +21,12 @@ pipeline{
                 sh 'npm start'
             }
         }
+        timeout(1) {
+                node {
+                    sh 'npm stop'
+                }
+        }
+
         stage ('Timeout') {
             timeout(1) {
                 node {
