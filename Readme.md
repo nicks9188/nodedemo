@@ -8,4 +8,4 @@ Dealing with files
 * `cd nodedemo/`
 * `npm install`
 * `npm start`
-* Now go to your brower and check: `http://<ip_address>:9000/`
+* Now go to your brower and check: `http://<ip_address>:3000/`
