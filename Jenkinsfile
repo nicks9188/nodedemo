@@ -18,7 +18,8 @@ pipeline{
         }
         stage ('Deliver') {
             steps {
-                sh 'npm start'
+                sh 'npm start',
+                sh 'npm stop'
             }
         }
         stage ('Stop') {
