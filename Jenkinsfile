@@ -18,7 +18,7 @@ pipeline{
         }
         stage ('Deliver') {
             steps {
-                sh 'npm start',
+                sh 'npm start'
                 echo "Now trying to stop"
                 sh 'npm taskkill -F -IM node'
             }
