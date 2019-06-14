@@ -1,5 +1,7 @@
 # Node-Docker-RestApi Demo
 
+![picture alt](views/img/docker-node.jpeg)
+
 This is a demo with **Nodejs** - **REST-API** - **Docker**.
 
 Kindly check other branches for individual features.
