@@ -1,7 +1,26 @@
 const express = require('express');
 const app = express() //To set-up our application
+const router = express.Router();
 
-app.get('/', (req, res) => res.send("Great, It's Success!!!"));
+const path = __dirname + '/views/';
+
+//app.get('/', (req, res) => res.send("Great, It's Success!!!"));
+
+app.use(express.static(path));
+app.use('/', router);
+
+router.use(function (req,res,next) {
+    console.log('/' + req.method);
+    next();
+});
+
+router.get('/index', function(req,res){
+    res.sendFile(path + 'index.html');
+});
+
+router.get('/hello', function(req,res){
+    res.sendFile(path + 'hello.html');
+})
 
 //To start our server
 app.listen(3000, () => {

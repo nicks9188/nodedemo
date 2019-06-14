@@ -1,0 +1,55 @@
+* html, body {
+	font-family: Arial, Helvetica, sans-serif, Tangerine, 'Libre Baskerville', serif;
+	box-sizing: border-box;
+	margin: 0px 15px 0px 15px;
+	color: #ffffff;
+}
+
+.header {
+	background: darkorchid;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.logo-name {
+	font-weight: bolder;
+	font-size: 45px;
+	font-family: "Libre Baskerville",cursive;
+	text-shadow: 5px 5px 5px #000000;
+}
+
+.container1 {
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+	border-radius: 5px;
+	text-decoration:none;
+	opacity: 0.85;
+	font-weight: bold;
+}
+
+.btn:hover { background-color: SlateBlue; }
+
+.copyright {
+    padding-top: 5px;
+    font-size: 12px;
+    color: #838488;
+    line-height: normal;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.footer-section {
+    padding: 5px 0;
+}
