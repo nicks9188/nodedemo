@@ -1,0 +1,26 @@
+{
+  "name": "rest-api-docker",
+  "version": "1.0.0",
+  "description": "Steps:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicks9188/nodedemo.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api",
+    "docker"
+  ],
+  "author": "Nicketa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
