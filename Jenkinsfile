@@ -18,14 +18,14 @@ pipeline{
         }
         stage ('Test') {
             steps {
-                sh './jenkins/scripts/test.sh' 
+                echo "No test specified" 
             }
         }
         stage ('Deliver') {
-            sh './jenkins/scripts/deliver.sh'
-            input message: 'Finished using the web site? (Click "Proceed" to continue)'
-            sh './jenkins/scripts/kill.sh'
-            echo "Bye bye"
+            sh 'npm start'
+        }
+        stage ('Stop') {
+            sh 'npm stop'
         }
     }
 }
