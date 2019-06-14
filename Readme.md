@@ -30,5 +30,18 @@ An account is necessary in dockerhub if want to push own image. Once we push our
 * `docker push <image_name>:<tag>` e.g., `docker push nicks9188/node-docker-restapi:v1`
 * Now go `https://hub.docker.com/<your_account>` to check.
 * To use this pushed image: `docker pull <dockerhub_username>/<image_name>:<tag>` e.g. `docker pull nicks9188/node-docker-restapi:v1`
+* To use this image again: `docker run --name <give_it_a_name> -p <your_port_no>:3000 -d nicks9188/node-docker-restapi:v1`
 
-[View this image on Hub.Docker.Com](https://hub.docker.com/r/nicks9188/node-docker-restapi)
+**Tips**:
+
+* Don't forget to open respective port in your host machine.
+* To clear everything use `docker system prune -a`
+* Remember to stop container before removing everything.
+
+## Conclusion
+
+We created a _RESTApi_ app with _Node.js_. Created a new _Docker_ image for this app. Pushed this image to _Docker Hub_ for future use and We used our newely created image as a container.
+
+From there, we are able to destroy our image and container and recreate them using our Docker Hub repository.
+
+[View this image on Hub.Docker.Com](https://hub.docker.com/r/nicks9188/node-docker-restapi) | [Live](http://13.233.15.16:7000/) | If you liked this, give it a :star2:
