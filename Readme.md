@@ -11,4 +11,4 @@ Kindly check other branches for individual features.
 * `npm install`
 * `npm start`
 
-[Live Demo](href=http://13.233.15.16:3000/)
+Click [here](http://13.233.15.16:3000/) for Live Demo.
