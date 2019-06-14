@@ -4,7 +4,7 @@ Steps:
 
 * Create `app.js`
 * `npm init` within root directory. This will create package.json
-* `npm install --save express' installing the dependencies.
+* `npm install --save express` installing express dependency.
 * If we go to our package.json, we will see that the dependency has been added.
 * In ouder to get this running, have to add `start` command to our script in package.json.
 * To test our work, got to console and type `npm start`.
@@ -18,7 +18,7 @@ Now we have successfully dockerized nodejs application.
 
 ## To restart node automatically
 
-* Go to package.json and change the start command from `nodapp.js` to 'nodemon app.js'
+* Go to package.json and change the start command from `nodapp.js` to `nodemon app.js`
 * `npm install --save nodemon` to install nodemon dependency
 * If there is error "npm is not recognized", run `npm install -g nodemon` to install nodemon globally
 * From Console: `npm run start`
@@ -34,5 +34,7 @@ Now we have successfully dockerized nodejs application.
 ## To run this code locally
 
 * git clone `https://github.com/nicks9188/nodedemo.git`
+* `cd nodedemo/`
 * `npm install`
 * `npm start`
+* Now go to your brower and check: `http://<ip_address>:9000/`
