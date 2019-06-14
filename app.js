@@ -12,7 +12,18 @@ app.use('/', router);
 router.use(function (req,res,next) {
     console.log('/' + req.method);
     next();
+    // setTimeout(function() {
+    //     console.log('Set to timeout after 3000 milliseconds')
+    // }, 3000);
+    // setTimeout(function(){ myWindow.close() }, 3000);
 });
+
+// //Timeout
+// function myFunc(arg) {
+//     console.log(`log => ${arg}`);
+// }
+  
+// setTimeout(myFunc, 1500, 'Timing out in 3000 milliseconds');
 
 router.get('/index', function(req,res){
     res.sendFile(path + 'index.html');

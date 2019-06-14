@@ -44,4 +44,4 @@ We created a _RESTApi_ app with _Node.js_. Created a new _Docker_ image for this
 
 From there, we are able to destroy our image and container and recreate them using our Docker Hub repository.
 
-[View this image on Hub.Docker.Com](https://hub.docker.com/r/nicks9188/node-docker-restapi) | [Live](http://13.233.15.16:7000/) | If you liked this, give it a :star:
+[View this image on Hub.Docker.Com](https://hub.docker.com/r/nicks9188/node-docker-restapi) | If you liked this, give it a :star:
