@@ -2,9 +2,7 @@
 
 ![picture alt](views/img/docker-node.jpeg)
 
-This is a demo with **Nodejs** - **REST-API** - **Docker**.
-
-Kindly check other branches for individual features.
+This is a demo with **Nodejs** - **REST-API** - **Docker**. Kindly check other branches for individual features.
 
 ## To run this code locally
 
