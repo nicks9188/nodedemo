@@ -1,5 +1,7 @@
 # Node-Docker-RestApi Demo
 
+## Minimal Nodejs app
+
 Steps:
 
 * Create `app.js`
@@ -33,7 +35,7 @@ Now we have successfully dockerized nodejs application.
 
 ## To run this code locally
 
-* git clone `https://github.com/nicks9188/nodedemo.git`
+* git clone -b node-docker-restapi-demo `https://github.com/nicks9188/nodedemo.git`
 * `cd nodedemo/`
 * `npm install`
 * `npm start`
