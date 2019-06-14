@@ -19,4 +19,4 @@ Kindly check other branches for individual features.
 * `docker logs <container_id>` to get logs
 * Now go to `http://<ip_address>:<your_port_number>/` to check.
 
-Now we have successfully dockerized our nodejs application.
+Now we have successfully dockerized our nodejs application. :thumbsup: :metal:
