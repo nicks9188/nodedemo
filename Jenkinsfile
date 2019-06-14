@@ -18,25 +18,9 @@ pipeline{
         }
         stage ('Deliver') {
             steps {
-                sh 'npm start'
-            }
-        }
-        timeout(1) {
-                node {
-                    sh 'npm stop'
-                }
-        }
-
-        stage ('Timeout') {
-            timeout(1) {
-                node {
-                    sh 'npm stop'
-                }
-            }
-        }
-        stage ('Stop') {
-            steps {
-                sh 'npm stop'
+                sh 'npm start',
+                echo "Now trying to stop"
+                sh 'npm taskkill -F -IM node'
             }
         }
     }
