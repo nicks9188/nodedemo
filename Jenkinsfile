@@ -20,7 +20,9 @@ pipeline{
             steps {
                 sh 'npm start'
                 echo "Now trying to stop"
-                sh 'npm taskkill -F -IM node'
+                timeout(time: 3, unit: 'MINUTES') {
+                    sh 'npm stop'
+                }
             }
         }
     }

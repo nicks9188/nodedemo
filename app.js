@@ -4,8 +4,6 @@ const router = express.Router();
 
 const path = __dirname + '/views/';
 
-//app.get('/', (req, res) => res.send("Great, It's Success!!!"));
-
 app.use(express.static(path));
 app.use('/', router);
 
@@ -38,7 +36,10 @@ app.use((error, req, res, next) => {
     });
 });
 
+
 //To start our server
 app.listen(3000, () => {
     console.log('My REST API Running on port 3000!');
-})  
+})
+
+app.timeout = 1000;

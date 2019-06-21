@@ -4,6 +4,8 @@
 
 This is a demo with **Nodejs** - **REST-API** - **Docker**. Kindly check other branches for individual features.
 
+[![Build Status](http://13.233.15.16:8080/job/Demo/job/Docker/badge/icon)](http://13.233.15.16:8080/job/Demo/job/Docker/)
+
 ## To run this code locally
 
 * `git clone https://github.com/nicks9188/nodedemo.git`
