@@ -38,8 +38,8 @@ app.use((error, req, res, next) => {
 
 
 //To start our server
-app.listen(3000, () => {
-    console.log('My REST API Running on port 3000!');
+app.listen(7000, () => {
+    console.log('My REST API Running on port 7000!');
 })
 
 app.timeout = 1000;
