@@ -4,7 +4,7 @@
 
 This is a demo with **Nodejs** - **REST-API** - **Docker**. Kindly check other branches for individual features.
 
-[![Build Status](http://13.233.162.151:8080/job/Demo/job/Node-RESTApi-Demo/badge/icon)](http://13.233.162.151:8080/job/Demo/job/Node-RESTApi-Demo/)
+[![Build Status](http://13.233.162.151:8080/buildStatus/icon?job=Demo%2FNode-RESTApi-Demo)](http://13.233.162.151:8080/job/Demo/job/Node-RESTApi-Demo/)
 
 ## To run this code locally
 
